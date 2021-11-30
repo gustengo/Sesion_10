@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  color: black;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 99vw;
+}
+
+header {
+  width: 100%;
+  height: 40rem;
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(img/fondo.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+header div {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  margin-top: 5rem;
+  margin-left: 6rem;
+  font-size: 3rem;
+}
+
+header p {
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+header button {
+  width: 20%;
+  height: 8%;
+  margin-top: 8rem;
+  margin-left: 15rem;
+  background-color: red;
+  border-color: red;
+  border-radius: 0.5rem;
+}
+
+main {
+  width: 100%;
+  height: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #primerSection {
+  width: 85%;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+}
+
+main #primerSection div {
+  width: 32%;
+  height: 100%;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+
+main #primerSection div img {
+  width: 15%;
+}
+
+main #primerSection div h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+main #primerSection div p {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+main #segundaSection {
+  width: 85%;
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #segundaSection #primerDiv {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #segundaSection #primerDiv h3 {
+  font-size: 1.7rem;
+}
+
+main #segundaSection #segundoDiv {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+main #segundaSection #segundoDiv .circulos {
+  width: 6%;
+  height: 50%;
+  margin: 0.2%;
+  border-radius: 50%;
+  background-color: #FFC300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2rem;
+}
+
+main #segundaSection #segundoDiv .rectangulos {
+  width: 27%;
+  height: 5%;
+  background-color: #FFC300;
+}
+
+main #segundaSection #tercerDiv {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+main #segundaSection #tercerDiv h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+main #segundaSection #tercerDiv p {
+  font-size: 1.1rem;
+}
+
+aside {
+  width: 100%;
+  height: 30rem;
+  background-color: azure;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+aside h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
+
+aside p {
+  font-size: 1.7rem;
+  margin-bottom: 2%;
+}
+
+aside button {
+  width: 28%;
+  height: 15%;
+  background-color: red;
+  border-radius: 10px;
+  border-color: red;
+  color: white;
+  font-size: 1rem;
+}
+
+footer {
+  width: 100%;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer div {
+  width: 22%;
+}
+
+footer h3 {
+  margin-top: 15%;
+  font-size: 1rem;
+}
+
+footer p {
+  margin-top: 5%;
+  font-size: 0.8rem;
+}
+
+footer #copyright {
+  margin-bottom: 8%;
+  width: 100%;
+  text-align: end;
+}
+/*# sourceMappingURL=styles.css.map */
